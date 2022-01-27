@@ -1,0 +1,22 @@
+.request-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.request-card {
+  columns: 1;
+  background-color: #6883b9;
+  border-radius: 0.5rem;
+  transition: all 5ms ease;
+  cursor: pointer;
+  height: 250px;
+}
+.request-card:hover {
+  transform: translateY(-5px);
+}
+.request-card span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
