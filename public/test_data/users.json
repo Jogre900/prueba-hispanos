@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "first_name": "jose",
+    "last_name": "del corral",
+    "email": "asd@asd.com",
+    "age": 21,
+    "country": "vzla"
+  },
+  {
+    "id": 2,
+    "first_name": "george",
+    "last_name": "ponce",
+    "email": "asd2@asd.com",
+    "age": 31,
+    "country": "arg"
+  },
+  {
+    "id": 3,
+    "first_name": "john",
+    "last_name": "doe",
+    "email": "asd3@asd.com",
+    "age": 18,
+    "country": "spain"
+  }
+]

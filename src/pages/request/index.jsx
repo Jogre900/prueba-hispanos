@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom'
-import Header from '../../components/header'
 import Container from '../../components/container'
 import Button from '@mui/material/Button'
 import CloseIcon from '@mui/icons-material/Close'
@@ -14,17 +13,17 @@ export default function CreateRequest() {
   }
   return (
     <>
-      <Header className='align-items-center justify-space-between'>
+      <div className="align-items-center justify-space-between">
         <Button startIcon={<CloseIcon />} onClick={handleNavigation}>
           Cerrar
         </Button>
         <Button startIcon={<LocalAtm />}>precios</Button>
-      </Header>
+      </div>
       <Container>
-        <div className='request-container'>
+        <div className="request-container">
           {requestData.map((elem, index) => (
             <div
-              className='request-card d-flex justify-center align-items-center'
+              className="request-card d-flex justify-center align-items-center"
               key={index}
             >
               <span>{elem}</span>

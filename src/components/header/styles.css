@@ -3,4 +3,9 @@
   height: 4rem;
   padding: 0 2rem;
   margin-bottom: 0.5rem;
+  max-width: 100%;
+}
+
+.header ul {
+  margin-top: 0;
 }
